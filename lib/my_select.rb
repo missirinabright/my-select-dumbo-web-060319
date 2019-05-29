@@ -3,9 +3,9 @@ i = 0
 empty_array = []
 until i < collection.length
 if yield(array[i])
-      select << array[i]
+      my_select << array[i]
     end
     i+=1
   end
-  select
+  my_select
 end
