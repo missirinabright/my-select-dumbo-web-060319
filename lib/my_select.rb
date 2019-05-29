@@ -7,5 +7,5 @@ if yield(collection[i])
     end
     i+=1
   end
-  my_select
+  empty_array
 end
