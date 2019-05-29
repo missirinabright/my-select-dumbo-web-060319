@@ -5,7 +5,7 @@ until i < collection.length
 if yield(collection[i])
       my_select << collection[i]
     end
-    i++
+    i+=1
   end
   my_select
 end
